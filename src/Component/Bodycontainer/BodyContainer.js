@@ -161,6 +161,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                   <p><BiChevronDown/></p>
+                  <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -196,10 +206,12 @@ export default function BodyContainer() {
                         <p>Added by You</p>
                         <h4>Cricket</h4>
                       </div>
-                      <div className="vote">
-                        <p> . </p>
-                      </div>
-                      <div className="close"> <AiFillCloseCircle /></div>
+                     
+                      <div className="close-vote-btn">
+                          <div className="close-btn">
+                            <AiFillCloseCircle />
+                          </div>
+                        </div>
                     </div>
                     <div className="poll-create">
                       <div className="input">
@@ -209,10 +221,12 @@ export default function BodyContainer() {
                         <p>Added by You</p>
                         <h4>Badminton</h4>
                       </div>
-                      <div className="vote">
-                        <p> . </p>
-                      </div>
-                      <div className="close"> <AiFillCloseCircle /></div>
+                    
+                      <div className="close-vote-btn">
+                          <div className="close-btn">
+                            <AiFillCloseCircle />
+                          </div>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -389,6 +403,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -397,7 +421,7 @@ export default function BodyContainer() {
                 </div>
                 <div className="like-comment-count">
                   <div className="like">
-                  <p><span className='text-primary fs-5'><AiFillLike/></span> 3</p>
+                  <p><span className='text-primary'><AiFillLike/></span> 3</p>
                    
                   </div>
                 </div>
@@ -438,6 +462,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -446,7 +480,7 @@ export default function BodyContainer() {
                 </div>
                 <div className="like-comment-count">
                   <div className="like">
-                    <p className='text-primary fs-5'><AiFillLike/><span className='fs-5'><FcLike/></span></p>
+                    <p className='text-primary'><AiFillLike/><span className=''><FcLike/></span></p>
                     <span> 6</span>
                   </div>
                   <p>1Comment</p>
@@ -477,6 +511,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
             
@@ -497,7 +541,7 @@ export default function BodyContainer() {
 
                 <div className="like-comment-count">
                   <div className="like">
-                  <p className='text-primary fs-5'><AiFillLike/><span className='fs-5'><FcLike/></span><span className='text-danger'><FaAngry/></span></p>
+                  <p className='text-primary'><AiFillLike/><span className=''><FcLike/></span><span className='text-danger'><FaAngry/></span></p>
                     <span> You and 2 others</span>
                   </div>
                 </div>
@@ -546,6 +590,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -554,13 +608,13 @@ export default function BodyContainer() {
                 </div>
                 <div className="like-comment-count">
                   <div className="like">
-                  <p className='text-primary fs-5'><AiFillLike/><span className='fs-5'><FcLike/></span></p>
+                  <p className='text-primary'><AiFillLike/><span className=''><FcLike/></span></p>
                     <span> You and 1 other</span>
                   </div>
                   <p>1Comment</p>
                 </div>
                 <div className="like-comment-bar">
-                  <p><span className='text-primary fs-5'><FcLike /></span> Love</p>
+                  <p><span className='text-primary'><FcLike /></span> Love</p>
                   <p>
                     <span><GoComment /> </span>Comment
                   </p>
@@ -600,6 +654,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -616,7 +680,7 @@ export default function BodyContainer() {
                 </div>
                 <div className="like-comment-count">
                   <div className="like">
-                  <p className='text-primary fs-5'><AiFillLike/><span className='text-warning fs-5'><BsEmojiDizzyFill/></span><span className='fs-5'><FcLike/></span></p>
+                  <p className='text-primary'><AiFillLike/><span className='text-warning'><BsEmojiDizzyFill/></span><span className=''><FcLike/></span></p>
                     <span> 9</span>
                   </div>
                   <p>1Comment</p>
@@ -660,6 +724,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -670,7 +744,7 @@ export default function BodyContainer() {
                 </div>
                 <div className="like-comment-count">
                   <div className="like">
-                  <p className='text-primary fs-5'><AiFillLike/></p>
+                  <p className='text-primary'><AiFillLike/></p>
                     <span> 3</span>
                   </div>
                   <p>3Comment</p>
@@ -715,6 +789,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -726,7 +810,7 @@ export default function BodyContainer() {
                 </div>
                 <div className="like-comment-count">
                   <div className="like">
-                  <p className='text-primary fs-5'><AiFillLike/></p>
+                  <p className='text-primary'><AiFillLike/></p>
                     <span> 2</span>
                   </div>
                 </div>
@@ -768,6 +852,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -776,7 +870,7 @@ export default function BodyContainer() {
                 </div>
                 <div className="like-comment-count">
                   <div className="like">
-                  <p className='text-primary fs-5'><AiFillLike/><span className='fs-5'><FcLike/></span></p>
+                  <p className='text-primary'><AiFillLike/><span className=''><FcLike/></span></p>
                     <span> 3</span>
                   </div>
                 </div>
@@ -818,6 +912,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -829,7 +933,7 @@ export default function BodyContainer() {
                 </div>
                 <div className="like-comment-count">
                   <div className="like">
-                  <p className='text-primary fs-5'><AiFillLike/><span className='fs-5 text-warning'><BsEmojiLaughingFill/></span></p>
+                  <p className='text-primary'><AiFillLike/><span className=' text-warning'><BsEmojiLaughingFill/></span></p>
                     <span> 3</span>
                   </div>
                   <p>3 Comments</p>
@@ -877,6 +981,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -885,7 +999,7 @@ export default function BodyContainer() {
                 </div>
                 <div className="like-comment-count">
                   <div className="like">
-                  <p className='text-warning fs-5'><BsEmojiLaughingFill/><span className='fs-5 text-primary'><AiFillLike/></span></p>
+                  <p className='text-warning'><BsEmojiLaughingFill/><span className='text-primary'><AiFillLike/></span></p>
                     <span> 3</span>
                   </div>
                   <p>1Comment</p>
@@ -931,6 +1045,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -943,7 +1067,7 @@ export default function BodyContainer() {
                 </div>
                 <div className="like-comment-count">
                   <div className="like">
-                  <p className=' fs-5'><FcLike/><span className='fs-5 text-primary'><AiFillLike/></span><span className='text-warning fs-5'><BsEmojiDizzyFill/></span></p>
+                  <p className=''><FcLike/><span className='text-primary'><AiFillLike/></span><span className='text-warning'><BsEmojiDizzyFill/></span></p>
                     <span> 3</span>
                   </div>
                 </div>
@@ -988,6 +1112,16 @@ export default function BodyContainer() {
                 </div>
                 <div className="arrowbar">
                 <p><BiChevronDown/></p>
+                <div class="side-menu">
+                            <ul>
+                                <li><FiSave /><span>Save Post</span></li>
+                                <li><BsFillFlagFill/><span>Report Post</span> </li>
+                                <li><GrEdit/><span> Edit Post</span></li>
+                                <li><RiDeleteBin5Line/><span> Delete Post</span></li>
+                                <p className="hr"></p>
+                                <li><FiLink/><span>Open Post in new Tab</span> </li>
+                            </ul>
+                        </div>
                 </div>
               </div>
               <div className="post-information">
@@ -996,7 +1130,7 @@ export default function BodyContainer() {
                 </div>
                 <div className="like-comment-count">
                   <div className="like">
-                  <p className='text-primary fs-5'><AiFillLike/></p>
+                  <p className='text-primary'><AiFillLike/></p>
                     <span> 2</span>
                   </div>
                 </div>

@@ -13,7 +13,7 @@ import { BiSearchAlt2 } from "react-icons/bi"
 
 export default function NavBar() {
   return (
-    <div className='sticky-top nav-bar-area container'>
+    <div className='sticky-top nav-bar-area'>
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#">
