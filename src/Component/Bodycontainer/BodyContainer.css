@@ -1007,6 +1007,9 @@
     .single-post .post-information .like-comment-bar {
       padding: 2px 0;
     }
+    .story-image-icon {
+      width: 90%;
+    }
     .explore-btn ul li a span {
       font-size: 14px;
     }
@@ -1300,6 +1303,7 @@
     .story-image-icon {
       height: 23px;
       border-radius: 7px 7px 0 0;
+      width: 90%;
     }
     .story-image-icon h5 {
       top: -9px;
@@ -1335,7 +1339,7 @@
       margin: 20px 0 0 0;
     }
     .create-story .story-content input[type="search"] {
-      width: 168px;
+      width: 167px;
       padding: 5px 8px;
       font-size: 8px;
       margin-left: 6px;
@@ -1515,14 +1519,14 @@
       font-weight: 400;
     }
     .secondary-btn {
-      padding: 0px 18px;
+      padding: 0px 15px;
       border-radius: 2px;
       font-size: 8px;
       display: block;
       margin-bottom: 3px;
     }
     .danger-btn {
-      padding: 0px 19px;
+      padding: 0px 16px;
       border-radius: 2px;
       font-size: 8px;
       display: block;
@@ -1679,6 +1683,7 @@
 }
 .single-post .post-information .like-comment-count .like p {
 	margin-right: 3px;
+	margin-bottom: 8px;
 }
 .side-menu ul {
   padding-left: 0;
