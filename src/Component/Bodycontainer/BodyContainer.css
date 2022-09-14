@@ -1,9 +1,8 @@
 /* for all css */
-body {
-  font-family: 'Montserrat', sans-serif;
+/* body {
     font-size: 14px;
     line-height: 22px;
-  }
+  } */
 
   * {
     margin: 0;
@@ -401,8 +400,9 @@ body {
 }
 
 .close-btn {
-  font-size: 17px;
-  color: #95a5a6;
+	font-size: 17px;
+	color: #95a5a6;
+	margin-left: 219px;
 }
 /* post body css */
 .single-post .post-information {
